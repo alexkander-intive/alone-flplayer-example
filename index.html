@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLPlayer Example</title>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td>
+        <h4>VOD</h4>
+        <button id="videoVodPlayButton">Play</button>
+        <button id="videoVodPauseButton">Pause</button>
+        <video id="videoVod" controls width="600" height="400"></video>
+      </td>
+      <td>
+        <h4>Live</h4>
+        <button id="videoLivePlayButton">Play</button>
+        <button id="videoLivePauseButton">Pause</button>
+        <video id="videoLive" controls width="600" height="400"></video>
+      </td>
+    </tr>
+  </table>
+
+  <script src="./public/web/fl-foundation.iife.js"></script>
+  <script src="./public/web/fl-player-interface.iife.js"></script>
+  <script src="./public/web/fl-player.iife.js"></script>
+  <script src="./public/web/fl-platform-authorizer.iife.js"></script>
+  <script src="./public/web/fl-content-authorization.iife.js"></script>
+  <script src="./js/vod.js"></script>
+  <!-- <script src="./js/live.js"></script> -->
+</body>
+</html>
